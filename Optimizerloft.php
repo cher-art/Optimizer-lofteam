@@ -7,3 +7,9 @@ Version: 1.0
 Author: Basicteam
 Author URL: http://basicteam.com
  */
+
+function add_new_word() {
+    echo "Hello World123123";
+}
+
+add_action('admin_init', 'add_new_word');
